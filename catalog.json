@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "revision": 1,
+  "revision": 2,
   "adapters": [
     {
       "id": "spotify",
@@ -38,6 +38,19 @@
       },
       "icon": "symbol:wand.and.stars",
       "category": "developer"
+    },
+    {
+      "id": "broken-test",
+      "name": "Broken test",
+      "version": "0.0.1",
+      "prefix": "web:",
+      "description": "Test entry that must be refused.",
+      "permissions": [],
+      "publisher": "Rami Nakkar",
+      "source": "https://github.com/rami-nk/ra-adapters",
+      "archive": null,
+      "icon": null,
+      "category": "other"
     }
   ]
 }
