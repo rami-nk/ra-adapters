@@ -1,0 +1,43 @@
+{
+  "catalogVersion": 1,
+  "revision": 1,
+  "adapters": [
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "version": "0.1.0",
+      "prefix": "spotify:",
+      "description": "Shows the track that is playing, play, pause and skip, and opens a search in the Spotify app.",
+      "permissions": [
+        "app: Spotify, through its AppleScript interface (play, pause, next, previous, current track)",
+        "app: Spotify, opens its search when you press Enter on the search row"
+      ],
+      "publisher": "Rami Nakkar",
+      "source": "https://github.com/rami-nk/ra-adapters/releases/tag/adapter-spotify-0.1.0",
+      "archive": {
+        "url": "https://github.com/rami-nk/ra-adapters/releases/download/adapter-spotify-0.1.0/spotify-0.1.0.zip",
+        "sha256": "1ff9670f7a96280bcc2cbef83fd5377d368c37cb8f275c9c0a94be04392e58f5",
+        "size": 2308
+      },
+      "icon": "app:/Applications/Spotify.app",
+      "category": "music"
+    },
+    {
+      "id": "demo",
+      "name": "Demo",
+      "version": "0.1.1",
+      "prefix": "demo:",
+      "description": "A small example adapter with three fixed rows. Useful for trying the protocol.",
+      "permissions": [],
+      "publisher": "Rami Nakkar",
+      "source": "https://github.com/rami-nk/ra-adapters/releases/tag/adapter-demo-0.1.1",
+      "archive": {
+        "url": "https://github.com/rami-nk/ra-adapters/releases/download/adapter-demo-0.1.1/demo-0.1.1.zip",
+        "sha256": "f0bcb06ba049ad6e9c3f19a5d487c6f25a41dbc6fe2bed31d57bc425a6994f17",
+        "size": 1057
+      },
+      "icon": "symbol:wand.and.stars",
+      "category": "developer"
+    }
+  ]
+}
